@@ -1,0 +1,19 @@
+{
+    "name": "dinhquochan/php-design-patterns",
+    "description": "PHP Design Pattern Implementations",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dinh Quoc Han",
+            "email": "dqh@dinhquochan.com"
+        }
+    ],
+    "require": {
+        "php": "~7.0|~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/"
+        }
+    }
+}
